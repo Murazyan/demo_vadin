@@ -16,8 +16,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @Route("admin")
 public class EmployeeList extends VerticalLayout {
-    private final EmployeeRepo employeeRepo;
 
+    private final EmployeeRepo employeeRepo;
     private final EmployeeEditor employeeEditor;
 
     private Grid<Employee> employeeGrid= new Grid<>(Employee.class);
